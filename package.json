@@ -1,0 +1,17 @@
+
+{
+  "name": "randomfml",
+  "version": "0.1",
+  "description": "Gives a random FML quote.",
+  "main": "index.js",
+  "author": "DevinThePancake",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinThePancake/randomfml.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.83.1"
+  }
+}
