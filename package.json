@@ -1,8 +1,13 @@
 
 {
-  "name": "randomfml",
+  "name": "randomfmylife",
   "version": "0.1.0",
   "description": "Gives a random FML quote.",
+  "keywords": [
+    "fml",
+    "fmylife",
+    "randomfml"
+  ],
   "main": "index.js",
   "author": "DevinThePancake",
   "repository": {
