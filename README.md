@@ -1,2 +1,5 @@
 # randomfml
-honestly this is a test
+Usage:
+```
+require('randomfml')().then(fml => console.log(fml))
+```
