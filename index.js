@@ -14,7 +14,7 @@ module.exports = function FML() {
                 if(err2) reject(err2);
                 let o = cheerio.load(close);
                 let fml = o('p.block.hidden-xs').text();
-                if(!fml) reject('Couldn\'t not find any FMLs.');
+                if(!fml) reject('Could not find any FMLs.');
                 else resolve(fml);
             });
         });
