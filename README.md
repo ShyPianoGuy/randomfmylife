@@ -5,6 +5,13 @@
 [![Dependency Status](https://img.shields.io/david/devinthepancake/randomfmylife.svg?style=flat-square)](https://david-dm.org/devinthepancake/randomfmylife)
 
 Usage:
+```ts
+import randomFML from 'randomfmylife';
+
+randomFML().then(fml => console.log(fml));
+```
+or
+
 ```js
 require('randomfmylife')().then(fml => console.log(fml))
 ```

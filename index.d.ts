@@ -1,0 +1,1 @@
+export default function randomFML(): Promise<string>;
