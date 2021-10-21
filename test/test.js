@@ -1,6 +1,1 @@
-(async() => {
-const fml = require('randomfmylife');
-const text = await fml();
-
-console.log(text);
-})();
+require('../index')().then(fml => console.log(fml));
