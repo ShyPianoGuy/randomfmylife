@@ -1,5 +1,5 @@
 (async() => {
-const fml = require('../index');
+const fml = require('randomfmylife');
 const text = await fml();
 
 console.log(text);
